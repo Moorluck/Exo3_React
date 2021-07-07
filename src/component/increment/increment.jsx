@@ -19,7 +19,7 @@ const Increment = function(props) {
 
     return(
         <>
-            <h3>{nb}</h3>
+            <h1>{nb}</h1>
             <button onClick={incrementValue}>Add</button>
             {(resetButtonVisible) 
                 ? <button onClick={resetValue}>Reset</button>
